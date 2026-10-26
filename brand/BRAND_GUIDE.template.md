@@ -7,11 +7,23 @@
 ## 1. The business
 - **Name (exact spelling):** <e.g. Acme Outdoor Co.>
 - **Website:** <https://example.com>
-- **Platform:** <BigCommerce / Shopify / WordPress + WooCommerce / Webflow / custom>
-- **What we sell, in one sentence:** <...>
+- **Platform:** <WordPress / Webflow / Wix / Squarespace / Shopify / BigCommerce / custom>
+- **Business type:** <service business (leads, calls, bookings) / online store / both>
+- **What we do / sell, in one sentence:** <...>
 - **Who buys it:** <customer type, what they care about most>
-- **Service area / ships to:** <e.g. USA lower 48; local service area: City, State>
+- **Service area / ships to:** <e.g. Salt Lake County + Utah County; or USA lower 48>
+- **Services (one line each, these become service pages):** <e.g. Drain cleaning, Water heater install, ...>
+- **Hours:** <...> (24/7 only if true)
 - **Contact:** phone <...>, email <...>, address <...> (exactly as it should appear everywhere)
+
+## 1b. Business model and goals (KPIs)
+- **What counts as a conversion:** <e.g. phone call, quote form, online booking / purchase>
+- **Primary call to action (same on every page):** <e.g. "Call now" / "Get a free quote" / "Book online">
+- **Booking / lead tools:** <e.g. Housecall Pro, Jobber, Calendly, form plugin, CRM name>
+- **Call tracking:** <none / CallRail / other>
+- **Monthly KPI targets:** <e.g. 60 leads, 4% conversion rate, cost per lead under $40>
+- **Money keywords:** <e.g. "plumber near me", "water heater repair Salt Lake City">
+- **Google Business Profile:** <link; primary category>
 
 ## 2. Voice
 - **Sound like:** <3 adjectives, e.g. direct, knowledgeable, friendly>
@@ -21,9 +33,11 @@
 
 ## 3. Claims we are allowed to make (keep these TRUE everywhere)
 Every page, product, FAQ, structured-data block and SEO tool must agree with this list.
-- **Shipping:** <e.g. free over $X to the lower 48; ships in 1-2 business days>
-- **Returns:** <e.g. 31 days; 60 days for account holders; installed parts 15 days>
-- **Warranty:** <...>
+- **Guarantees / warranty:** <e.g. 1-year labour warranty; satisfaction guarantee>
+- **Pricing language:** <e.g. "free estimates", "flat-rate pricing", price ranges we publish>
+- **Licenses / insurance:** <license numbers, bonded/insured>
+- **Response time promises:** <e.g. "same-day service" only if true>
+- **Shipping / returns (stores only):** <...>
 - **Payment methods:** <only the ones actually enabled>
 - **Awards / ratings / certifications:** <only real, current ones>
 - **Never claim:** <e.g. "in stock" in meta descriptions, "fastest shipping", competitor comparisons>
@@ -57,8 +71,8 @@ with dark text, and define a darker "ink" version for text.
 - **Do not:** <e.g. stock photos of people, drop shadows on text, more than 2 fonts>
 
 ## 7. Site structure that matters
-- **How customers find products:** <by category / by vehicle or model / by service / by location>
-- **Most important pages (money pages):** <home, top categories, top products, booking page>
+- **How customers find what they need:** <by service / by location / by category / by product type>
+- **Most important pages (money pages):** <home, top service pages, location pages, contact/booking>
 - **Pages that must never be indexed:** <search results, cart, account, thank-you>
 
 ## 8. Tools and integrations on the site
@@ -67,7 +81,8 @@ List every app/script so audits can spot leftovers:
 |---|---|---|---|
 | <Google Analytics 4> | analytics | yes | <after cookie consent> |
 | <Meta Pixel> | ads | yes | <...> |
-| <Reviews app> | reviews | yes | <...> |
+| <Reviews widget / Google reviews> | trust | yes | <...> |
+| <Booking / chat / call tracking> | leads | yes | <...> |
 | <SEO tool, e.g. Search Atlas / Yoast> | SEO | yes | <must not rewrite headings/schema without review> |
 
 ## 9. Privacy and compliance

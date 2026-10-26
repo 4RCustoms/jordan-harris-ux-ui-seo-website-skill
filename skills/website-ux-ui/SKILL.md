@@ -9,8 +9,9 @@ Load `brand-guide` first and use its tokens, fonts, radius, voice and imagery ru
 you need isn't in the guide, propose adding it rather than inventing one.
 
 ## Design principles
-- **Customers scan for "does it fit / is it for me" and price, in that order.** Put fit/eligibility
-  and price where the eye lands; match navigation to how customers actually shop (by model, service,
+- **Customers scan for "is this for me" first** (right service, serves my area, fits my product),
+  then price/next step. Put that and the primary call to action (call / quote / book / buy) where
+  the eye lands, and keep it in reach on phones; match navigation to how customers actually shop (by model, service,
   location) as recorded in the guide.
 - **Bright brand colours live on dark surfaces** or as fills with dark text; text uses the "ink" shade.
 - One primary action per view; buttons are verbs.

@@ -1,6 +1,6 @@
 ---
 name: website-audit
-description: Run a full, prioritised audit of a live website (speed, SEO, AI search, accessibility, UX, content accuracy, third-party scripts) before changing anything. Use when the user asks to audit, review, check or "make perfect" a website, or asks why a score is low.
+description: Run a full, prioritised audit of a live website (speed, SEO, local SEO, AI search, accessibility, UX, conversions/tracking, content accuracy, third-party scripts) before changing anything. Use when the user asks to audit, review, check or "make perfect" a website, or asks why a score is low.
 ---
 
 # Website audit
@@ -8,8 +8,9 @@ description: Run a full, prioritised audit of a live website (speed, SEO, AI sea
 Load the `brand-guide` skill first. The audit is read-only: change nothing on the live site.
 
 ## 1. Pick the pages
-At minimum: home, the top 2 category/collection or service pages, the top 2 product/detail pages,
-cart, search results, a blog post, contact, the policies page, the 404 page. Ask the owner which
+At minimum: home, contact/booking, the top 2-3 service pages (or category pages), a location/
+service-area page, a blog post, the policies/about page, the 404 page. Stores also: top product
+pages, cart, search results. Ask the owner which
 pages make the money if it isn't obvious.
 
 ## 2. Measure (record numbers, not impressions)
@@ -34,9 +35,9 @@ From the HTML and network log of the home page and a product page:
 - Scripts that load on every page but are needed on one (captchas, video players, chat, reviews).
 
 ## 4. Content accuracy (often the most valuable part)
-Search all pages, product descriptions, FAQs, structured data (JSON-LD) and SEO-tool output for:
-return windows, shipping promises, warranty terms, payment methods, stock claims, prices, contact
-details. Every value must match the brand guide's claims. Typical finds: a product FAQ saying 15 days
+Search all pages, service/product descriptions, FAQs, structured data (JSON-LD) and SEO-tool output
+for: guarantees, response-time promises, prices, licenses, hours, return/shipping terms, payment
+methods, contact details. Every value must match the brand guide's claims. Typical finds: a product FAQ saying 15 days
 while the policy says 31; a removed payment method still listed; "in stock" baked into meta descriptions.
 
 ## 5. SEO and AI-search checks
@@ -46,6 +47,10 @@ links, structured data validity and consistency, SEO tools rewriting headings or
 ## 6. Accessibility and UX checks
 Use the `website-ux-ui` skill checklist (contrast, keyboard access, carousels, buttons vs links,
 tap targets, forms, focus, layout on 320/390/768/1024/1440px).
+
+## 6b. Conversion and tracking check
+Use the `website-conversions-kpis` skill: is every phone number tappable and tracked, does a real
+form submission / booking register as a key event, is the primary call to action visible on phones?
 
 ## 7. Report
 Group findings as: **Blocker / Fix this week / Should fix / Nice to have**. For each: what a customer

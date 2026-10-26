@@ -29,8 +29,8 @@ description: Safe process for changing a live website, theme or store admin (the
 ## After
 1. Verify each change live (HTML contains the new markup, old leftovers gone, no new console errors).
 2. Re-measure the numbers you were trying to move.
-3. Place a real test order / booking / form submission after checkout-adjacent changes, then refund
-   or delete it.
+3. Submit a real test lead (form, booking, call) or test order after changes near those flows, confirm
+   it arrives where the owner expects (inbox, CRM, booking tool) and is tracked, then delete/refund it.
 4. Update the change log / backup file with what changed and how it was verified.
 
 ## When something goes wrong

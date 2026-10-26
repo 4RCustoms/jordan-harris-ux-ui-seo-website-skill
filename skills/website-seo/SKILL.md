@@ -1,6 +1,6 @@
 ---
 name: website-seo
-description: Fix technical SEO and AI-search (AIO/GEO) issues and content accuracy: titles, meta descriptions, headings, canonicals, indexing, crawlable links, structured data/schema, SEO-tool side effects. Use when the user mentions SEO, Google ranking, AI search, schema, meta descriptions, Search Console, or Lighthouse SEO.
+description: Fix technical and local SEO and AI-search (AIO/GEO) issues and content accuracy: titles, meta descriptions, headings, canonicals, indexing, crawlable links, structured data/schema, Google Business Profile, service-area pages, SEO-tool side effects. Use when the user mentions SEO, Google ranking, AI search, schema, meta descriptions, Search Console, or Lighthouse SEO.
 ---
 
 # Website SEO and AI search
@@ -22,7 +22,7 @@ Load `brand-guide` first: every claim in titles, descriptions, FAQs and schema m
 
 ## Structured data (JSON-LD)
 - Organization/LocalBusiness on the home page with name, URL, logo, contact, sameAs (real profiles).
-- Product + Offer on product pages: price, currency, availability, and if used, shipping and
+- Service pages: Service schema (name, provider, areaServed). Stores: Product + Offer on product pages: price, currency, availability, and if used, shipping and
   return-policy fields (e.g. `merchantReturnDays`) that **match the written policy**.
 - BreadcrumbList, FAQPage only where the questions are visibly on the page, Article on blog posts.
 - One source of each type per page: SEO plugins/tools often add a second, conflicting schema block.
@@ -39,10 +39,24 @@ blocks, schema) need a review:
   installed, respect that and work through its dashboard instead.
 
 ## Content accuracy sweep
-Grep every product description, FAQ widget, policy page and meta description for: return days,
-shipping times/costs, warranty, payment methods, stock wording, contact details. List every
+Grep every service/product description, FAQ widget, policy page and meta description for: guarantees,
+response-time promises, prices, licenses, return/shipping terms, payment methods, hours, contact details. List every
 contradiction with the brand guide, then fix with the owner's wording. One wrong number on one
 product page undermines the policy page and the schema.
+
+## Local SEO (service businesses)
+- **Google Business Profile:** correct primary category, services, service area, hours, photos,
+  website link with UTM, posts; reply to reviews. Ask the owner for access; don't create profiles.
+- **NAP consistency:** name, address (or service area), phone identical on the site, Business Profile,
+  Yelp/BBB/industry directories. List mismatches.
+- **One page per service** and per main service area, each with unique, genuinely local content,
+  title like "<Service> in <City> | <Business>", internal links between related services/areas.
+- **LocalBusiness schema** (the most specific subtype, e.g. Plumber, HVACBusiness) with areaServed,
+  openingHours, telephone, priceRange, aggregateRating only if reviews are shown on the page.
+- **Reviews:** a simple way to ask happy customers for Google reviews; never gate or fake reviews.
+- **Click-to-call** and maps embed/link on contact and location pages.
+- Never link client/partner sites to each other in a network, and never copy one business's
+  content to another's site.
 
 ## AI search (ChatGPT, Gemini, Perplexity, Google AI Overviews)
 - Clear factual pages: what you sell, who it fits, prices, policies, location; in plain text, not

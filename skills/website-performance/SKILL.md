@@ -36,6 +36,8 @@ Load `brand-guide` (so speed fixes never change the brand look) and follow `webs
   of extra elements); turn looping off where it isn't needed. Initialise sliders that start below the
   first screen only when they come near the viewport (IntersectionObserver), with CSS that shows the
   un-initialised row at the same height so nothing jumps.
+- **Page builders and plugins** (WordPress/Wix/Squarespace especially): each plugin may add its own
+  CSS/JS to every page; disable what isn't used and load the rest only where needed.
 - **Hidden duplicate markup:** e.g. listing pages that render a grid AND a hidden list view of every
   product. Render one.
 - Remove leftover debug logging and dead code paths that still run.

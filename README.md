@@ -4,9 +4,10 @@ A set of [Claude Code](https://claude.com/claude-code) skills for improving a bu
 **design, usability, accessibility, speed and SEO**, built around **your own brand guide** so the
 work always looks and sounds like your business.
 
-It was distilled from a real production overhaul of an e-commerce store (theme rebuild, PageSpeed
-work, SEO/AI-search cleanup, accessibility fixes, third-party script audits). Everything here is
-general: it works for BigCommerce, Shopify, WordPress/WooCommerce, Webflow, or a custom site.
+It was distilled from a real production overhaul of a live business website (theme rebuild,
+PageSpeed work, SEO/AI-search cleanup, accessibility fixes, third-party script audits). Everything
+here is general and works for **service businesses** (leads, calls, bookings) as well as online
+stores, on WordPress, Webflow, Wix, Squarespace, Shopify, BigCommerce or a custom site.
 
 ## What's inside
 
@@ -15,14 +16,16 @@ general: it works for BigCommerce, Shopify, WordPress/WooCommerce, Webflow, or a
 | `brand-guide` | Set up or check your brand guide (colours, fonts, voice). Every other skill reads it first. |
 | `website-audit` | Get a full, prioritised report on a site before changing anything. |
 | `website-performance` | Raise the PageSpeed score and make phones load faster. |
-| `website-seo` | Fix SEO and AI-search issues: titles, structured data, crawlability, content accuracy. |
+| `website-seo` | Fix SEO, local SEO and AI-search issues: titles, schema, Google Business Profile, service-area pages, content accuracy. |
+| `website-conversions-kpis` | Set KPIs, make sure calls/forms/bookings are tracked, and raise the conversion rate. |
 | `website-ux-ui` | Design or review pages so they're on-brand, usable and accessible. |
 | `website-change-safety` | Make changes to a live store/site without breaking or losing anything. |
 
 ## Install
 
 1. Install Claude Code (desktop app, CLI or VS Code extension).
-2. Download this repo (green **Code** button > **Download ZIP**, or `git clone`).
+2. Download the latest ZIP from **[Releases](../../releases/latest)** (or green **Code** button >
+   **Download ZIP**, or `git clone`).
 3. Copy the folders inside `skills/` into one of:
    - `~/.claude/skills/` to use them in every project, or
    - `<your-project>/.claude/skills/` to use them in one project.
@@ -36,7 +39,9 @@ Talk to Claude normally; the skills load when the task matches. Examples:
 
 - "Audit https://example.com for speed, SEO and accessibility and give me a prioritised list."
 - "Our mobile PageSpeed is 40. Get it up without changing how the site looks."
-- "Check every product page for return-policy or shipping claims that contradict each other."
+- "Set up our KPIs and check that calls, quote forms and bookings are tracked in GA4."
+- "Build service pages and service-area pages for local SEO."
+- "Check every page for guarantees or prices that contradict each other."
 - "Redesign the category page so it matches our brand guide."
 
 ## The rules these skills follow
